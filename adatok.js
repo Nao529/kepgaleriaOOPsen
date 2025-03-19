@@ -1,30 +1,19 @@
-export const KEPEK = [
+
+export const OBJLISTA= [
     {
-        kep: "kepek/DSC7681.jpeg",
-        cim: "Kakasmandiko",
+        cim: "Virag1",
+        src: "kepek/DSC7681.jpeg",
+        leiras:"virag",
     },
     {
-        kep: "kepek/DSC8847.jpeg",
-        cim: "Galambvirág",
+        cim: "Virag2",
+        src: "kepek/DSC8847.jpeg",
+        leiras:"viraag",
     },
     {
-        kep: "kepek/DSC8888.jpeg",
-        cim: "Májvirág",
+        cim: "Virag3",
+        src: "kepek/DSC8888.jpeg",
+        leiras: "viraaag",
     },
-    {
-        kep: "kepek/DSC8912.jpeg",
-        cim: "Tavaszi erdő",
-    },
-    {
-        kep: "kepek/DSC8963.jpeg",
-        cim: "Csillagvirág",
-    },
-    {
-        kep: "kepek/DSC9135.jpeg",
-        cim: "Keltike",
-    },
-    {
-        kep: "kepek/DSC9311.jpeg",
-        cim: "Kakasmandiko",
-    },
-];
+
+]

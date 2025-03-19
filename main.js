@@ -1,10 +1,19 @@
-import { KEPEK } from "./adatok.js";
-import Kep from "./Kep.js";
-import { Kepek } from "./Kepek.js";
+import Kepek from "./Kepek.js";
+import LeptetoKezelo from './LeptetesKezelo.js';
+import { OBJLISTA } from "./adatok.js";
 
-const GALERIAELEM=document.querySelectorAll(".galeria")[0]
-const NAGYKEPELEM=document.querySelectorAll(".kiemelt")[0]
+let szuloElem = document.getElementsByClassName("galeria")[0]
+const KEPEK = new Kepek(OBJLISTA, szuloElem);
 
-const NAGYKEP=new Kep(KEPEK[0].kep,KEPEK[0].cim, GALERIAELEM)
+/* jobbra gombra kattintva léptessük a képeket */
+/*
+1. meg kell ogni a jobb gombot
+2. kell egy eseménykezelő
+2,5
+3. indexet kell növelni - OBJLISTA-nak hányadik eleménél tartok
 
-const GALERIAKEPEK=new Kepek(KEPEK,GALERIAELEM,NAGYKEPELEM)
+*/
+
+let nkep = document.getElementsByClassName("kiemelt")[0]
+new LeptetoKezelo(OBJLISTA,nkep)
+
